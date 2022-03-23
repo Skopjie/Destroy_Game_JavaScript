@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <script src="src/engine.js"></script>
+    <script src="src/player.js"></script>
+    <script src="src/Box2D.js"></script>
+    <script src="src/functions.js"></script>
+    <script src="src/ssanimation.js"></script>
+    <script src="src/input.js"></script>
+    <script src="src/physics.js"></script>
+    <script src="src/Explosion.js"></script>
+    <script src="src/mouseShoot.js"></script>
+    <script src="src/bulletpool.js"></script>
+    <script src="src/Enemy.js"></script>
+    <script src="src/LevelManager.js"></script>
+    <script src="src/PlayerShop.js"></script>
+    <script src="src/Shop.js"></script>
+    <script src="src/particlesystem.js"></script>
+    <script src="src/Nube.js"></script>
+    <title>Destroy</title>
+    <link rel="icon" href="assets/mago.png">
+
+    
+</head>
+<body>
+    <canvas id="myCanvas" width=1200 height="940"></canvas>
+
+    <audio id="playerShoot" src="assets/Audio/Shoot.wav"></audio>
+    <audio id="playerBuy" src="assets/Audio/Coin.wav"></audio>
+    <audio id="Explosion" src="assets/Audio/Explosion.wav"></audio>
+    <audio id="ShopOn" src="assets/Audio/Select.wav"></audio>
+    <audio id="ShopOff" src="assets/Audio/Hit.wav"></audio>
+    <audio id="NextLevel" src="assets/Audio/Powerup.wav"></audio>
+    <audio id="DamegeSound" src="assets/Audio/Daño.wav"></audio>
+    <audio id="Music" src="assets/Audio/BoxCat_Games_-_05_-_Battle_Boss.mp3"></audio>
+    <audio id="JumpSound" src="assets/Audio/jumpSound.wav"></audio>
+    <audio id="WalkSound" src="assets/Audio/walkSound.wav"></audio>
+    
+    <div style="width:100%;background-color: whitesmoke;text-align: center;">
+        <h1>Controles</h1><br>
+        <p>A o flecha izquierda para moverse izquierda</p>
+        <p>D o flecha derecha para moverse izquierda</p>
+        <p>W o flecha arriba para saltar</p>
+        <p>click izquierdo del ratón o espacio para disparar</p>
+        <h1><br>Objetivo: LLega al nivel 10</h1>
+    </div>
+</body>
+
+<style>
+    *{
+        cursor: none;
+    }
+   
+</style>
+</html>
